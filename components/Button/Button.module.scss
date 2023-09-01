@@ -1,0 +1,15 @@
+.button {
+  @apply px-5 py-2 rounded transition font-medium;
+
+  &.isPrimary {
+    @apply text-white bg-indigo-600;
+
+    &:hover {
+      @apply bg-indigo-700;
+    }
+  }
+
+  &.isCta {
+    @apply text-white bg-emerald-600 hover:bg-emerald-700;
+  }
+}
